@@ -24,7 +24,7 @@ const NavBar = () => {
 
         {/* Facebook */}
         <a
-          href="https://www.facebook.com/your-profile" // Replace with your Facebook profile URL
+          href="https://web.facebook.com/abi.ram.7374480/" // Replace with your Facebook profile URL
           target="_blank"
           rel="noopener noreferrer"
           className="text-blue-600 hover:text-blue-800"
@@ -34,7 +34,7 @@ const NavBar = () => {
 
         {/* GitHub */}
         <a
-          href="https://github.com/your-profile" // Replace with your GitHub profile URL
+          href="https://github.com/AbiramRam" // Replace with your GitHub profile URL
           target="_blank"
           rel="noopener noreferrer"
           className="text-gray-800 hover:text-black"
