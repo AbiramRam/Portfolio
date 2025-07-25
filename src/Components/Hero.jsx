@@ -18,7 +18,7 @@ const Hero = () => {
                         initial={{x: -100,opacity: 0}}
                         whileInView={{opacity:1, x:0}}
                         transition={{duration: 0.5, delay: 0.75}}
-                        className="bg-gradient-to-r font-medium from-pink-400 via-slate-500 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent"> Job Seeker Internship
+                        className="bg-gradient-to-r font-medium from-pink-400 via-slate-500 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent"> Backend Developer
                     </motion.span>
 
                     <motion.p 

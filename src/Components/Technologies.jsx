@@ -1,11 +1,7 @@
-import { RiReactjsLine } from "react-icons/ri"; 
-import { TbBrandNextjs } from "react-icons/tb"; 
-import { SiMongodb } from "react-icons/si";
+import { SiSpringboot, SiPostgresql } from "react-icons/si";
+import { FaJava, FaGithub } from "react-icons/fa";
 import { DiMysql } from "react-icons/di";
-import { DiPhp } from "react-icons/di";
-import { FaJava } from "react-icons/fa";
-import { FaNodeJs } from "react-icons/fa"; 
-import { FaChartBar } from "react-icons/fa";
+import { RiReactjsLine } from "react-icons/ri";
 import { motion } from "framer-motion";
 
 const Technologies = () => {
@@ -34,56 +30,37 @@ const Technologies = () => {
                     className="rounded-2xl border-4 border-neutral-500 p-4"
                     animate={createFloatAnimation(0)}
                 >
-                    <RiReactjsLine className="text-7xl text-cyan-400" />
+                    <SiSpringboot className="text-7xl" style={{ color: '#6DB33F' }} />
                 </motion.div>
-
                 <motion.div 
                     className="rounded-2xl border-4 border-neutral-500 p-4"
                     animate={createFloatAnimation(0.2)}
                 >
-                    <TbBrandNextjs className="text-7xl text-white" />
+                    <FaJava className="text-7xl text-red-600" />
                 </motion.div>
-
                 <motion.div 
                     className="rounded-2xl border-4 border-neutral-500 p-4"
                     animate={createFloatAnimation(0.4)}
                 >
-                    <SiMongodb className="text-7xl text-green-500" />
+                    <DiMysql className="text-7xl text-blue-500" />
                 </motion.div>
-
                 <motion.div 
                     className="rounded-2xl border-4 border-neutral-500 p-4"
                     animate={createFloatAnimation(0.6)}
                 >
-                    <DiMysql className="text-7xl text-blue-500" />
+                    <SiPostgresql className="text-7xl" style={{ color: '#336791' }} />
                 </motion.div>
-
                 <motion.div 
                     className="rounded-2xl border-4 border-neutral-500 p-4"
                     animate={createFloatAnimation(0.8)}
                 >
-                    <DiPhp className="text-7xl text-indigo-600" />
+                    <RiReactjsLine className="text-7xl text-cyan-400" />
                 </motion.div>
-
                 <motion.div 
-                    className="rounded-2xl border-4 border-neutral-500 p-4"
+                    className="rounded-2xl border-4 border-neutral-500 p-4 bg-neutral-900"
                     animate={createFloatAnimation(1)}
                 >
-                    <FaJava className="text-7xl text-red-600" />
-                </motion.div>
-
-                <motion.div 
-                    className="rounded-2xl border-4 border-neutral-500 p-4"
-                    animate={createFloatAnimation(1.2)}
-                >
-                    <FaNodeJs className="text-7xl text-green-500" />
-                </motion.div>
-
-                <motion.div 
-                    className="rounded-2xl border-4 border-neutral-500 p-4"
-                    animate={createFloatAnimation(1.4)}
-                >
-                    <FaChartBar className="text-7xl text-purple-500" />
+                    <FaGithub className="text-7xl text-white" />
                 </motion.div>
             </div>
         </div>
