@@ -1,5 +1,5 @@
 import { SiSpringboot, SiPostgresql } from "react-icons/si";
-import { FaJava, FaGithub } from "react-icons/fa";
+import { FaJava, FaGithub, FaDocker } from "react-icons/fa";
 import { DiMysql } from "react-icons/di";
 import { RiReactjsLine } from "react-icons/ri";
 import { motion } from "framer-motion";
@@ -61,6 +61,27 @@ const Technologies = () => {
                     animate={createFloatAnimation(1)}
                 >
                     <FaGithub className="text-7xl text-white" />
+                </motion.div>
+
+                <motion.div 
+                    className="rounded-2xl border-4 border-neutral-500 p-4 bg-neutral-900"
+                    animate={createFloatAnimation(1)}
+                >
+                    <FaKafka className="text-7xl text-white" />
+                </motion.div>
+
+                <motion.div 
+                    className="rounded-2xl border-4 border-neutral-500 p-4 bg-neutral-900"
+                    animate={createFloatAnimation(1)}
+                >
+                    <FaJunit className="text-7xl text-white" />
+                </motion.div>
+
+                <motion.div 
+                    className="rounded-2xl border-4 border-neutral-500 p-4 bg-neutral-900"
+                    animate={createFloatAnimation(1)}
+                >
+                    <FaDocker className="text-7xl text-white" />
                 </motion.div>
             </div>
         </div>
