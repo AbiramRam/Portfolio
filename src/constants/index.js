@@ -107,7 +107,7 @@ export const PROJECTS = [
     image: project7, // Placeholder image, update if you have a specific one
     description:
       "A powerful Hotel Management system where I serve as the backend lead. The project leverages React for the frontend and Spring Boot for the backend, with robust security and privileges management to ensure safe and efficient issue tracking and resolution. It serves the connectivity with Booking.com and Beds 24 too.",
-    technologies: ["React", "Spring Boot", "Security", "Privileges", "Leadership", "Booking.com","Beds24"],
+    technologies: ["React", "Spring Boot", "Security", "Privileges", "Booking.com","Beds24"],
   },
 ];
 
