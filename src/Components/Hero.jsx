@@ -1,5 +1,7 @@
-import { HERO_CONTENT } from "../constants";
-import profilePic from "../assets/Abiram.jpg";
+import { HERO_CONTENT1 } from "../constants";
+import { HERO_CONTENT2 } from "../constants";
+import { HERO_CONTENT3 } from "../constants";
+import profilePic from "../assets/Abiram.png";
 import { motion } from "motion/react"
 
 const Hero = () => {
@@ -26,7 +28,23 @@ const Hero = () => {
                         whileInView={{opacity:1, x:0}}
                         transition={{duration: 0.5, delay: 1}}
                         className="my-2 max-w-xl py-6 font-medium text-1xl tracking-tighter">
-                        {HERO_CONTENT}
+                        {HERO_CONTENT1}
+                    </motion.p>
+
+                    <motion.p 
+                        initial={{x: -100,opacity: 0}}
+                        whileInView={{opacity:1, x:0}}
+                        transition={{duration: 0.5, delay: 1}}
+                        className="my-2 max-w-xl py-6 font-medium text-1xl tracking-tighter">
+                        {HERO_CONTENT2}
+                    </motion.p>
+
+                    <motion.p 
+                        initial={{x: -100,opacity: 0}}
+                        whileInView={{opacity:1, x:0}}
+                        transition={{duration: 0.5, delay: 1}}
+                        className="my-2 max-w-xl py-6 font-medium text-1xl tracking-tighter">
+                        {HERO_CONTENT3}
                     </motion.p>
                 </div>
                 
