@@ -32,7 +32,7 @@ export const EXPERIENCES = [
   {
     year: "Jan 2025 – Apr 2025",
     role: "Intern ML Engineer",
-    company: "ErrestX Technologies",
+    company: "EvrestX Technologies",
     description: `Created comprehensive documentation for backend code and integration processes.\n\nImplemented small ML models and analyzed performance bottlenecks.`,
     technologies: ["Machine Learning", "Documentation", "Python"],
   },
@@ -101,6 +101,13 @@ export const PROJECTS = [
     description:
       "A powerful defect tracking system where I serve as the backend lead. The project leverages React for the frontend and Spring Boot for the backend, with robust security and privileges management to ensure safe and efficient issue tracking and resolution.",
     technologies: ["React", "Spring Boot", "Security", "Privileges", "Leadership"],
+  },
+  {
+    title: "Hotel Management System",
+    image: project7, // Placeholder image, update if you have a specific one
+    description:
+      "A powerful Hotel Management system where I serve as the backend lead. The project leverages React for the frontend and Spring Boot for the backend, with robust security and privileges management to ensure safe and efficient issue tracking and resolution. It serves the connectivity with Booking.com and Beds 24 too.",
+    technologies: ["React", "Spring Boot", "Security", "Privileges", "Leadership", "Booking.com","Beds24"],
   },
 ];
 
