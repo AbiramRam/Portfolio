@@ -16,13 +16,6 @@ export const ABOUT_TEXT = `I am a results-driven software engineer with a strong
 
 export const EXPERIENCES = [
   {
-    year: "2021 - Present",
-    role: "Undergraduate Student",
-    company: "Eastern University",
-    description: "Undergraduate student of Bachelor Of Compuetr Science at Trincomalee Capus Eastern University of Sri Lanka",
-    technologies: ["Y I 3.87", "Y II 3.9", "Cumulative 3.81"],
-  },
-  {
     year: "2020 - 2021",
     role: "Assistanr cashier",
     company: "People's Bank",
@@ -37,18 +30,25 @@ export const EXPERIENCES = [
     technologies: ["Python", "Django", "Node.js", "Postgres"],
   },
   {
-    year: "Apr 2025 – Present",
-    role: "Intern Software Engineer",
-    company: "ErrestX Technologies",
-    description: `Acted as Backend Team Lead, overseeing development and collaboration.\n\nConducted peer code reviews, managed merges, and mentored a colleague.\n\nDeveloped large-scale systems using Spring Boot.\n\nHandled deployment, maintenance, and release management.\n\nOrganized and facilitated daily standup meetings for Agile workflows.`,
-    technologies: ["Spring Boot", "Agile", "Leadership", "Deployment"],
-  },
-  {
     year: "Jan 2025 – Apr 2025",
     role: "Intern ML Engineer",
     company: "ErrestX Technologies",
     description: `Created comprehensive documentation for backend code and integration processes.\n\nImplemented small ML models and analyzed performance bottlenecks.`,
     technologies: ["Machine Learning", "Documentation", "Python"],
+  },
+  {
+    year: "Apr 2025 – Dec 2025",
+    role: "Software Engineer",
+    company: "Samuel Gnanam IT Centre",
+    description: `Created comprehensive documentation for backend code and integration processes.\n\nImplemented small ML models and analyzed performance bottlenecks.`,
+    technologies: ["Web Development", "Documentation", "Spring Boot","Leadership"],
+  },
+  {
+    year: "Jan 2026 – Present",
+    role: "Software Engineer",
+    company: "Invicta Innovations",
+    description: `Created comprehensive documentation for backend code and integration processes.\n\nImplemented small ML models and analyzed performance bottlenecks.`,
+    technologies: ["Spring Boot", "PostgreSQL", "Kafka", "Docker", "JUnit","Beds24"],
   },
 ];
 
