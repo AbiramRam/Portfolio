@@ -1,5 +1,7 @@
 import { SiSpringboot, SiPostgresql } from "react-icons/si";
 import { FaJava, FaGithub, FaDocker } from "react-icons/fa";
+import { SiApachekafka, SiJunit5 } from "react-icons/si";
+import { VscBeaker } from "react-icons/vsc"
 import { DiMysql } from "react-icons/di";
 import { RiReactjsLine } from "react-icons/ri";
 import { motion } from "framer-motion";
@@ -65,24 +67,24 @@ const Technologies = () => {
 
                 <motion.div 
                     className="rounded-2xl border-4 border-neutral-500 p-4 bg-neutral-900"
-                    animate={createFloatAnimation(1)}
+                    animate={createFloatAnimation(1.2)}
                 >
-                    <FaKafka className="text-7xl text-white" />
+                    <SiApachekafka className="text-7xl text-white" />
                 </motion.div>
 
                 <motion.div 
                     className="rounded-2xl border-4 border-neutral-500 p-4 bg-neutral-900"
-                    animate={createFloatAnimation(1)}
+                    animate={createFloatAnimation(1.4)}
                 >
-                    <FaJunit className="text-7xl text-white" />
+                    <SiJunit5 className="text-7xl" style={{ color: 'red' }} />
                 </motion.div>
 
                 <motion.div 
                     className="rounded-2xl border-4 border-neutral-500 p-4 bg-neutral-900"
-                    animate={createFloatAnimation(1)}
+                    animate={createFloatAnimation(1.6)}
                 >
-                    <FaDocker className="text-7xl text-white" />
-                </motion.div>
+                    <FaDocker className="text-7xl text-blue" style={{color:'#0db7ed'}} />
+                </motion.div> 
             </div>
         </div>
     );
